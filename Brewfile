@@ -19,16 +19,22 @@ install liftoff
 
 # Other Homebrew packages
 install ansible
+install bison
 install boot2docker
 install ctags
 install docker
 install fontconfig
+install freetype
+install gdbm
+install gettext
 install gibo
 install git
 install git-flow
 install git-now
+install gnu-getopt
 install go
 install jq
+install libpng
 install libyaml
 install lua
 install luajit
@@ -38,14 +44,25 @@ install mobile-shell
 install mongodb
 install node
 install openssl
+install pcre
+install pkg-config
+install protobuf
 install python
 install python3
 install readline
 install ruby
+install sqlite
 install the_silver_searcher
 install tig
 install tree
 install wget
+install xcproj
+install xz
+
+# Below applications were installed by Cask,
+# but don't not have corresponding casks.
+
+#cask  install Warning: nothing to list
 
 # App Store applications
 appstore Airmail 2
