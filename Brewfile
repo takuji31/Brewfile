@@ -4,6 +4,35 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
+cask install alfred
+cask install android-file-transfer
+cask install atom
+cask install cheatsheet
+cask install clipmenu
+cask install coda
+cask install coteditor
+cask install genymotion
+cask install google-chrome
+cask install gyazo
+cask install ipaql
+cask install karabiner
+cask install kobito
+cask install macvim
+cask install p4merge
+cask install quicklook-csv
+cask install quicklook-json
+cask install reflector
+cask install reveal
+cask install skype
+cask install sourcetree
+cask install vagrant
+cask install virtualbox
+cask install xquartz
+
+## caskroom/fonts
+tap caskroom/fonts
+cask install font-m-plus
+cask install font-source-code-pro
 
 ## peco/peco
 tap peco/peco
@@ -55,14 +84,10 @@ install sqlite
 install the_silver_searcher
 install tig
 install tree
+install vim --with-lua --with-luajit --override-system-vi --with-python3
 install wget
 install xcproj
 install xz
-
-# Below applications were installed by Cask,
-# but don't not have corresponding casks.
-
-#cask  install Warning: nothing to list
 
 # App Store applications
 appstore Airmail 2
